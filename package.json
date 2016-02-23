@@ -1,0 +1,29 @@
+{
+  "name": "voilab-csv",
+  "version": "0.1.0",
+  "description": "Middleware to handle a CSV flow",
+  "main": "voilab-csv.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voilab/voilab-csv.git"
+  },
+  "keywords": [
+    "csv",
+    "parser"
+  ],
+  "dependencies": {
+    "streamifier": "0.1.1",
+    "lodash": "4.*",
+    "csv-streamify": "3.0.0",
+    "newlinepoint": "0.2.0"
+  },
+  "author": "Joël Poulin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/voilab/voilab-csv/issues"
+  },
+  "homepage": "https://github.com/voilab/voilab-csv#readme"
+}
