@@ -1,6 +1,6 @@
 {
   "name": "voilab-csv",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Middleware to handle a CSV flow",
   "main": "voilab-csv.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "streamifier": "0.1.1",
     "lodash": "4.*",
     "csv-streamify": "3.0.0",
-    "newlinepoint": "0.2.0"
+    "voilab-newlinepoint": "0.3.1"
   },
   "author": {
     "name": "Joël Poulin"
