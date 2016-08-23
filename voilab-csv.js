@@ -16,7 +16,7 @@
             var streamifier = require("streamifier"),
                 csv = require("csv-streamify"),
                 lodash = require('lodash'),
-                newlinepoint = require('newlinepoint');
+                newlinepoint = require('voilab-newlinepoint');
 
             return function (req, res, next) {
                 var parser = csv(lodash.merge({delimiter: ';', objectMode: true, columns: true}, (csvOptions || {}))),
