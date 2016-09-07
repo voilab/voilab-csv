@@ -47,7 +47,7 @@
                 streamifier = require("streamifier"),
                 csv = require("csv-streamify"),
                 lodash = require('lodash'),
-                newlinepoint = require('newlinepoint'),
+                newlinepoint = require('voilab-newlinepoint'),
                 convert = newlinepoint('\n');
 
             fs.readFile(filepath, function (err, content) {
